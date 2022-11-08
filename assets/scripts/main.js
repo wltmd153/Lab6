@@ -107,7 +107,7 @@ function clickOnButton(form){
   let main = document.querySelector('main');
   main.append(recipeCardEl);
   let recipes = getRecipesFromStorage();
-  recipes.push(recipeObejct);
+  recipes.push(recipeObject);
   saveRecipesToStorage(recipes);
 }
 
