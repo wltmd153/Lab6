@@ -69,7 +69,8 @@ main {
 
 .hidden {
   display: none;
-}`
+}
+`;
     // A5. TODO - Append the <style> and <article> elements to the Shadow DOM
   shadowEl.append(article);
   shadowEl.append(style);
