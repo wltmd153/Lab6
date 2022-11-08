@@ -72,8 +72,9 @@ main {
 }`;
     // A5. TODO - Append the <style> and <article> elements to the Shadow DOM
   }
-shadowEl.append(article);
-shadowEl.append(style);
+  
+  shadowEl.appendChild(article);
+  shadowEl.appendChild(style);
   /**
    * Called when the .data property is set on this element.
    *
