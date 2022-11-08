@@ -60,7 +60,7 @@ function saveRecipesToStorage(recipes) {
   // B1. TODO - Complete the functionality as described in this function
   //            header. It is possible in only a single line, but should
   //            be no more than a few lines.
-  let recipeString = recipes.stringify(recipes);
+  let recipeString = JSON.stringify(recipes);
   localStorage.setItem('recipes', recipeString);
 }
 
