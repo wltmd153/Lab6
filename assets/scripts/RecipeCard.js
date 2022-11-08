@@ -71,8 +71,8 @@ main {
   display: none;
 }`;
     // A5. TODO - Append the <style> and <article> elements to the Shadow DOM
-  shadowEl.appendChild(article);
-  shadowEl.appendChild(style);
+  shadowEl.append(article);
+  shadowEl.append(style);
   }
   
   
